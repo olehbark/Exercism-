@@ -6,3 +6,5 @@ exclude: |
   ^setup/|/static/description/index\.html$|
   # We don't want to mess with tool-generated files
  .svg$|/tests/([^/]+/)?cassettes/|^.copier-answers.yml$|^.github/|
+  # Maybe reactivate this when all README files include prettier ignore tags?
+  ^README\.md$|
