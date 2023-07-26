@@ -22,3 +22,5 @@ repos:
  hooks:
       # These files are most likely copier diff rejection junks; if found,
     # review them manually, fix the problem (if needed) and remove them
+ - id: forbidden-files
+        name: forbidden files
