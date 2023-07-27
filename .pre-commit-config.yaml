@@ -24,3 +24,6 @@ repos:
     # review them manually, fix the problem (if needed) and remove them
  - id: forbidden-files
         name: forbidden files
+  entry: found forbidden files; remove them
+        language: fail
+        files: "\\.rej$"
