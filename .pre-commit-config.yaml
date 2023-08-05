@@ -39,3 +39,5 @@ repos:
 - id: oca-update-pre-commit-excluded-addons
       - id: oca-fix-manifest-website
  args: ["https://github.com/OCA/maintenance"]
+  - repo: https://github.com/myint/autoflake
+    rev: v1.4
