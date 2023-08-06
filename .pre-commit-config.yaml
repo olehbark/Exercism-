@@ -41,3 +41,5 @@ repos:
  args: ["https://github.com/OCA/maintenance"]
   - repo: https://github.com/myint/autoflake
     rev: v1.4
+hooks:
+      - id: autoflake
