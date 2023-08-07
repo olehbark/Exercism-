@@ -43,3 +43,5 @@ repos:
     rev: v1.4
 hooks:
       - id: autoflake
+ args:
+          - --expand-star-imports
