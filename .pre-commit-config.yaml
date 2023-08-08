@@ -45,3 +45,4 @@ hooks:
       - id: autoflake
  args:
           - --expand-star-imports
+ - --ignore-init-module-imports
