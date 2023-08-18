@@ -60,3 +60,5 @@ hooks:
       - id: prettier
   name: prettier (with plugin-xml)
         additional_dependencies:
+  - "prettier@2.1.2"
+          - "@prettier/plugin-xml@0.12.0"
