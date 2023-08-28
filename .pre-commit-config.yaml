@@ -69,3 +69,4 @@ hooks:
     rev: v7.8.1
   hooks:
       - id: eslint
+   verbose: true
