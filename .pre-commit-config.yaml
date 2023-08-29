@@ -70,3 +70,6 @@ hooks:
   hooks:
       - id: eslint
    verbose: true
+ args:
+          - --color
+          - --fix
