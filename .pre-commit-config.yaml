@@ -98,3 +98,5 @@ hooks:
   - repo: https://github.com/asottile/pyupgrade
     rev: v2.7.2
     hooks:
+ - id: pyupgrade
+        args: ["--keep-percent-format"]
