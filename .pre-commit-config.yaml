@@ -131,3 +131,5 @@ exclude: /__init__\.py$
     hooks:
       - id: pylint_odoo
  name: pylint with optional checks
+ args:
+          - --rcfile=.pylintrc
