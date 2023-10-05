@@ -133,3 +133,5 @@ exclude: /__init__\.py$
  name: pylint with optional checks
  args:
           - --rcfile=.pylintrc
+- --exit-zero
+        verbose: true
