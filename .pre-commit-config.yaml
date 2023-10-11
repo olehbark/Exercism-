@@ -146,3 +146,5 @@ args:
         exclude: /README\.rst$|\.pot?$
  - id: debug-statements
       - id: fix-encoding-pragma
+  args: ["--remove"]
+      - id: check-case-conflict
