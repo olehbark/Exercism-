@@ -152,3 +152,5 @@ args:
       - id: check-executables-have-shebangs
  - id: check-merge-conflict
         # exclude files where underlines are not distinguishable from merge conflicts
+ exclude: /README\.rst$|^docs/.*\.rst$
+      - id: check-symlinks
