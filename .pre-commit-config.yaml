@@ -165,3 +165,5 @@ args:
  - repo: https://github.com/PyCQA/isort
     rev: 5.12.0
     hooks:
+- id: isort
+        name: isort except __init__.py
