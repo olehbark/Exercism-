@@ -167,3 +167,6 @@ args:
     hooks:
 - id: isort
         name: isort except __init__.py
+ args:
+          - --settings=.
+        exclude: /__init__\.py$
