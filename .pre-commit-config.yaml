@@ -170,3 +170,4 @@ args:
  args:
           - --settings=.
         exclude: /__init__\.py$
+  - repo: https://github.com/acsone/setuptools-odoo
