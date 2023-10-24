@@ -176,3 +176,7 @@ args:
       - id: setuptools-odoo-make-default
  - id: setuptools-odoo-get-requirements
         args:
+ - --output
+          - requirements.txt
+          - --header
+          - "# generated from manifests external_dependencies"
