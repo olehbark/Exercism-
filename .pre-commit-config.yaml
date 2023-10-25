@@ -180,3 +180,5 @@ args:
           - requirements.txt
           - --header
           - "# generated from manifests external_dependencies"
+ - repo: https://github.com/PyCQA/flake8
+    rev: 3.8.3
