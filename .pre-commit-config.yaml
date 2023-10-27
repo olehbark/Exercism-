@@ -186,3 +186,4 @@ args:
       - id: flake8
         name: flake8
         additional_dependencies: ["flake8-bugbear==20.1.4"]
+- repo: https://github.com/OCA/pylint-odoo
