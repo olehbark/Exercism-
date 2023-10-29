@@ -190,3 +190,4 @@ args:
 rev: 7.0.2
     hooks:
       - id: pylint_odoo
+    - --rcfile=.pylintrc-mandatory
