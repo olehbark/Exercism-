@@ -20,3 +20,6 @@ default_language_version:
   python: python3
  node: "14.13.0"
 repos:
+ - repo: local
+    hooks:
+      # These files are most likely copier diff rejection junks; if found,
