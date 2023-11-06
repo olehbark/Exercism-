@@ -27,3 +27,5 @@ repos:
       - id: forbidden-files
    name: forbidden files
         entry: found forbidden files; remove them
+  language: fail
+        files: "\\.rej$"
