@@ -31,3 +31,5 @@ repos:
         files: "\\.rej$"
   - id: en-po-files
         name: en.po files cannot exist
+ entry: found a en.po file
+        language: fail
