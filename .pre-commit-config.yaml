@@ -38,3 +38,4 @@ repos:
     rev: ab1d7f6
   hooks:
       # update the NOT INSTALLABLE ADDONS section above
+ - id: oca-update-pre-commit-excluded-addons
