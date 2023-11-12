@@ -39,3 +39,4 @@ repos:
   hooks:
       # update the NOT INSTALLABLE ADDONS section above
  - id: oca-update-pre-commit-excluded-addons
+ - id: oca-fix-manifest-website
