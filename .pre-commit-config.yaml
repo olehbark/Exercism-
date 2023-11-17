@@ -48,3 +48,5 @@ repos:
   args:
           - --expand-star-imports
    - --ignore-init-module-imports
+   - --in-place
+          - --remove-all-unused-imports
