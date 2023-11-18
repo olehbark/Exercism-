@@ -50,3 +50,5 @@ repos:
    - --ignore-init-module-imports
    - --in-place
           - --remove-all-unused-imports
+ - --remove-duplicate-keys
+          - --remove-unused-variables
