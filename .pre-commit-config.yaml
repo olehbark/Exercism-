@@ -52,3 +52,4 @@ repos:
           - --remove-all-unused-imports
  - --remove-duplicate-keys
           - --remove-unused-variables
+- repo: https://github.com/psf/black
