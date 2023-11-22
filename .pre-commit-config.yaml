@@ -60,3 +60,4 @@ repos:
  rev: v2.1.2
     hooks:
       - id: prettier
+ name: prettier (with plugin-xml)
