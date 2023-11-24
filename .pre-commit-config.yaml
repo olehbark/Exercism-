@@ -61,3 +61,5 @@ repos:
     hooks:
       - id: prettier
  name: prettier (with plugin-xml)
+  additional_dependencies:
+          - "prettier@2.1.2"
