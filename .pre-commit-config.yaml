@@ -71,3 +71,8 @@ repos:
     rev: v7.8.1
   hooks:
       - id: eslint
+  verbose: true
+        args:
+          - --color
+          - --fix
+  - repo: https://github.com/pre-commit/pre-commit-hooks
